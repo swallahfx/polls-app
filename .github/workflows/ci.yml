@@ -22,3 +22,5 @@ jobs:
       run: python mypolls/manage.py migrate 
     - name: Run tests
       run: python3 mypolls/manage.py test
+    - name: Run my other tests
+      run: python3 mypolls/polls/tests.py
